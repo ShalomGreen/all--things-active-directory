@@ -3,8 +3,8 @@ Active directory(AD) is a directory service is a database and it's primary funct
 
 ## ARCHITECTURE OF ACTIVE DIRECTORY 
 ### Domain Controller(DC):- 
-Is any server/ computer on which the active directory domain services are installed and configured.
+1.) Is any server/ computer on which the active directory domain services are installed and configured.
 
-Every Domain controller has a read and write copy of the AD database. This means that there is no master slave operation going on here. If any CHANGE( creation, deletion, modification, movement) happens on one DC, it reflects in the other DCs- as an administrator, you can make change on any domain controller.
+2.) Every Domain controller has a read and write copy of the AD database. This means that there is no master slave operation going on here. If any CHANGE( creation, deletion, modification, movement) happens on one DC, it reflects in the other DCs- as an administrator, you can make change on any domain controller.
 
-Some DCs take up additional roles and these roles are called "Flexible Single Master Operations"
+3.) Some DCs take up additional roles and these roles are called "Flexible Single Master Operations"
